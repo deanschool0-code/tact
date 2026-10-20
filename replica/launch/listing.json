@@ -1,0 +1,27 @@
+{
+  "avoid": [
+    "RizzGPT",
+    "Rizz GPT",
+    "Plug AI",
+    "PlugAI",
+    "WingAI",
+    "Wing AI",
+    "RIZZ PRO",
+    "TREND IT",
+    "Ignition Dating",
+    "rizz"
+  ],
+  "app_store": {
+    "name": "Tact: AI Reply Coach",
+    "subtitle": "Texts that sound like you",
+    "promotional_text": "Drop in a chat screenshot and get replies in your own voice. Screenshots are read on your iPhone, and you get 3 free replies every day.",
+    "description": "Tact helps you reply to dating and DM conversations without sounding like a pickup-line generator.\n\nAdd a screenshot of the chat. Tact reads it on your iPhone, works out who said what, and writes four replies about what they actually said, in your own voice.\n\nWhy it's different:\n- Sounds like you. Paste a few texts you've sent and Tact matches your length, slang and emoji habits.\n- Reads the room. Every result starts with an honest read of where the chat stands. If they're pulling back, Tact tells you and keeps it respectful.\n- Private by design. Screenshots never leave your phone. Phone numbers, emails and links are hidden before anything is sent. History stays on your device.\n- Fair pricing. 3 free replies every day, a paywall you can close, and no weekly plan. Cancel in one tap.\n\nTools:\n- Reply to a chat from screenshots, or type it in\n- Tweak any reply: shorter, funnier, bolder, softer\n- First messages from a profile or bio\n- Vibe check: interest level, green and red flags, next move\n- Bio review with rewrites that keep your real facts\n- Coach chat for texting and date questions\n- Tact keyboard: drop saved replies into any app\n\nTact Pro unlocks unlimited use of every tool. Payment is charged to your Apple ID. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the period. Manage or cancel in your App Store account settings.\n\nTact is for adults 18+. It never writes explicit content.",
+    "keywords": "dating,texting,wingman,flirt,opener,message,conversation,bio,pickup lines,chat helper,dm,date",
+    "whats_new": "First release. Replies in your voice, vibe check, bio review, coach and the Tact keyboard."
+  },
+  "google_play": {
+    "title": "Tact: AI Reply Coach",
+    "short_description": "Chat screenshot in, replies that sound like you out. Private by design.",
+    "full_description": "Tact helps you reply to dating and DM conversations without sounding like a pickup-line generator.\n\nAdd a screenshot, pick a vibe, get four replies about what they actually said, in your own voice. Screenshots are read on your phone and history stays on your device.\n\n3 free replies every day. Pro is unlimited."
+  }
+}

@@ -1,0 +1,33 @@
+feature,area,priority,original,clone,notes
+Import chat screenshot from Photos,reply,must,yes,yes,
+Read text from screenshot (OCR),reply,must,yes,yes,
+Tell my messages from theirs,reply,must,yes,yes,
+Generate 3-4 replies,reply,must,yes,yes,
+Tone choice (funny flirty chill bold etc),reply,must,yes,yes,
+Copy reply to clipboard,reply,must,yes,yes,
+Regenerate replies,reply,must,yes,yes,
+Opener from profile or bio,opener,must,yes,yes,
+Pickup lines for a name or topic,lines,must,yes,yes,
+Onboarding with style quiz,onboarding,should,yes,yes,
+Paywall with subscriptions,billing,must,yes,yes,
+Restore purchases,billing,must,yes,yes,
+Free daily allowance,billing,should,yes,yes,
+History of generations,history,should,yes,yes,
+Favourite replies,history,could,yes,yes,
+Vibe check (interest level red green flags),analysis,should,yes,yes,
+Bio rating and rewrite,bio,should,yes,yes,
+Coach chat for dating questions,coach,should,yes,yes,
+Keyboard extension with replies,keyboard,should,yes,partial,inserts saved replies; does not generate inside the keyboard yet
+Paste text instead of screenshot,reply,should,partial,yes,a reviewer asked for a typing option
+Adaptive style learns how you text,personalisation,could,yes,partial,from pasted samples + style quiz; does not learn from history yet
+Goal for the reply (keep going ask out recover),reply,could,partial,yes,
+Referral program free credits,growth,could,yes,no,
+Delete my data,privacy,must,yes,yes,Apple requirement
+NSFW tone,reply,could,yes,skip,App Store risk and backfires per reviews
+Link dating app accounts,integrations,could,yes,skip,no official public API
+Their trained chat dataset,ai,could,yes,skip,data the app owns
+Voice match from your own sample texts,personalisation,must,no,yes,fix 1
+Read-the-room line and graceful reply on rejection,reply,should,no,yes,fix 2
+Tweak a reply (shorter funnier bolder softer),reply,should,no,yes,fix 3
+On-device OCR and auto redaction,privacy,must,no,yes,fix 4
+Closable paywall + daily free + manage subscription,billing,must,no,yes,fix 5

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tact — replies that sound like you</title>
+<meta name="description" content="Drop in a chat screenshot. Tact writes replies about what they actually said, in your voice. Screenshots are read on your iPhone.">
+<style>
+  :root{--bg:#0D0F14;--surface:#161A22;--surface2:#1F2430;--border:#2A3040;--text:#F3F5F9;--muted:#9AA3B5;--accent:#C8F25A;--on-accent:#0D0F14}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,system-ui,sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+  .logo{font:800 24px/1 ui-rounded,"SF Pro Rounded",system-ui;letter-spacing:-.5px}
+  .btn{display:inline-block;background:var(--accent);color:var(--on-accent);padding:14px 22px;border-radius:14px;font-weight:700;text-decoration:none}
+  .btn.ghost{background:var(--surface2);color:var(--text)}
+  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:56px 0 72px}
+  h1{font:800 clamp(38px,6vw,60px)/1.05 ui-rounded,"SF Pro Rounded",system-ui;letter-spacing:-1.5px}
+  h1 em{font-style:normal;color:var(--accent)}
+  .lead{color:var(--muted);font-size:19px;margin:18px 0 28px;max-width:30em}
+  .phone{background:var(--surface);border:1px solid var(--border);border-radius:36px;padding:22px;max-width:340px;justify-self:center;width:100%}
+  .b{padding:9px 14px;border-radius:18px;margin:6px 0;max-width:80%;font-size:15px}
+  .them{background:var(--surface2)}
+  .me{background:var(--accent);color:var(--on-accent);margin-left:auto}
+  .read{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:16px 0 6px}
+  .opt{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:10px 12px;margin:6px 0;font-size:14px}
+  section{padding:56px 0;border-top:1px solid var(--border)}
+  h2{font:800 32px/1.15 ui-rounded,"SF Pro Rounded",system-ui;margin-bottom:24px;letter-spacing:-.5px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:22px}
+  .card h3{font-size:18px;margin-bottom:6px}
+  .card p,.muted{color:var(--muted)}
+  .num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-weight:800;margin-bottom:10px}
+  .price{font:800 34px/1 ui-rounded,system-ui;margin:10px 0}
+  .card.best{border:2px solid var(--accent)}
+  details{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:10px 0}
+  summary{font-weight:700;cursor:pointer}
+  details p{color:var(--muted);margin-top:8px}
+  footer{padding:40px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--border)}
+  a{color:var(--accent)}
+  @media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><span class="logo">tact</span><a class="btn ghost" href="#pricing">Pricing</a></nav>
+
+  <header class="hero">
+    <div>
+      <h1>Replies that sound like <em>you</em>.</h1>
+      <p class="lead">Drop in a chat screenshot. Tact writes four replies about what they actually said — in your voice, not a pickup-line generator's.</p>
+      <a class="btn" href="#">Get Tact for iPhone</a>
+      <p class="muted" style="margin-top:12px;font-size:14px">3 free replies every day. No card needed.</p>
+    </div>
+    <div class="phone" aria-label="Example of Tact replying to a chat">
+      <div class="b them">just got back from a hike at el morado</div>
+      <div class="b me">no way, how was it</div>
+      <div class="b them">freezing but the glacier was unreal</div>
+      <div class="read">The read</div>
+      <div class="muted" style="font-size:14px">They're sharing details and enthusiasm — good moment to build on it.</div>
+      <div class="opt">ok I need the full glacier report. was it worth freezing for</div>
+      <div class="opt">you're making me want to go — what's the hardest part</div>
+      <div class="opt">respect. next time I'm coming, I'll bring the hot chocolate</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Most AI wingmen get you left on read.</h2>
+    <div class="grid">
+      <div class="card"><h3>Same lines for everyone</h3><p>Generic, cheesy openers that could be sent to anyone — and people can tell.</p></div>
+      <div class="card"><h3>Weekly subscriptions</h3><p>Paywalls you can't close and plans that bill every week.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="grid">
+      <div class="card"><span class="num">1</span><h3>Add a screenshot</h3><p>Read on your iPhone. Or just type what they said.</p></div>
+      <div class="card"><span class="num">2</span><h3>Pick a vibe</h3><p>Chill, funny, flirty, bold, sweet or witty — and a goal.</p></div>
+      <div class="card"><span class="num">3</span><h3>Copy and send</h3><p>Or tweak it: shorter, funnier, bolder, softer.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Built different</h2>
+    <div class="grid">
+      <div class="card"><h3>Your voice</h3><p>Paste a few texts you've sent. Tact matches your length, slang and emoji habits.</p></div>
+      <div class="card"><h3>Reads the room</h3><p>An honest read on every chat. If they're pulling back, it tells you and keeps it respectful.</p></div>
+      <div class="card"><h3>Private by design</h3><p>Screenshots never leave your phone. Numbers, emails and links are hidden before anything is sent.</p></div>
+      <div class="card"><h3>Fair pricing</h3><p>3 free every day, a paywall you can close, cancel in one tap.</p></div>
+      <div class="card"><h3>More tools</h3><p>First messages from a profile, vibe check, bio review, a coach, and the Tact keyboard.</p></div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="grid">
+      <div class="card"><h3>Free</h3><div class="price">$0</div><p>3 replies a day across every tool.</p></div>
+      <div class="card"><h3>Pro Monthly</h3><div class="price">$4.99</div><p>Unlimited everything. Cancel any time.</p></div>
+      <div class="card best"><h3>Pro Yearly</h3><div class="price">$29.99</div><p>About $2.50 a month. 3-day free trial.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Questions</h2>
+    <details><summary>Do you upload my screenshots?</summary><p>No. Text is read from the image on your iPhone. Only the chat text is sent to write replies, and it isn't stored on our server.</p></details>
+    <details><summary>Will it sound like AI?</summary><p>That's the point of the voice samples — replies copy how you text and use details from the chat.</p></details>
+    <details><summary>How do I cancel?</summary><p>Settings → Manage subscription in the app. One tap.</p></details>
+    <details><summary>Who is it for?</summary><p>Adults 18+. Tact never writes explicit content.</p></details>
+  </section>
+
+  <section style="text-align:center">
+    <h2>Say the right thing.</h2>
+    <a class="btn" href="#">Get Tact for iPhone</a>
+  </section>
+
+  <footer>© 2026 Tact · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Support</a></footer>
+</div>
+</body>
+</html>

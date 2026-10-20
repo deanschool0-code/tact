@@ -1,0 +1,5 @@
+flask>=3.0
+gunicorn>=22
+requests>=2.31
+anthropic>=0.40
+app-store-server-library>=1.5

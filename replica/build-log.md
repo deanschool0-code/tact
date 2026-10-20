@@ -1,0 +1,11 @@
+# Build log (2026-10-17)
+- shell: TactApp, RootView, tabs, Theme tokens, components — done
+- S01/S02 onboarding (welcome, style, voice, 18+) — done
+- S04 home — done
+- S05/S06 chat input (OCR, bubbles, flip/edit/delete, type, paste) + tone/goal — done
+- S07 results (read line, boundary banner, tone switch, tweak, favourite, more) — done
+- S08 opener, S09 lines, S10 vibe, S11 bio, S12 coach, S13 history, S14 settings, S16 keyboard setup — done
+- S03 paywall (StoreKit 2, closable, restore, manage) — done
+- S15 keyboard extension — partial: inserts saved replies only
+- Harder than expected: OCR side attribution (heuristic; tune with real screenshots).
+- Not verified: Xcode compile (no macOS toolchain in the build sandbox).

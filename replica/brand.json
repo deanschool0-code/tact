@@ -1,0 +1,6 @@
+{
+  "name": "Tact",
+  "avoid": ["RizzGPT", "Rizz GPT", "Plug AI", "PlugAI", "WingAI", "Wing AI", "RIZZ PRO", "TREND IT", "Ignition Dating", "rizz"],
+  "domains": ["rizzapp.ai", "plugai.app", "wingai.app"],
+  "colors": []
+}
